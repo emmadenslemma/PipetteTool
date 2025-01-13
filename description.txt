@@ -1,1 +1,5 @@
-Adds a pipette tool to Terraria. Just point at a block and press the mouse wheel button.
+Adds a pipette tool to Terraria.
+
+To use, set the Pick Item keybind under Controls>Keybindings>Pipette Tool, point at a block, and press the keybind. The block will be selected from your inventory to place in the world.
+
+Works without moving items around or rearranging your Hotbar.
