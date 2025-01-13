@@ -1,0 +1,4 @@
+Keybinds: {
+	PipetteTool.DisplayName: Pick Item
+	ClearPipette.DisplayName: Clear Picked Item
+}

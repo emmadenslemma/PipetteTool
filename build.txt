@@ -1,0 +1,5 @@
+displayName = Pipette Tool
+author = Pingvin
+version = 0.1
+side = Client
+includeSource = true
