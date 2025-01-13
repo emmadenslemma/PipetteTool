@@ -39,6 +39,16 @@ namespace PipetteTool.Common.Players
             }
         }
 
+        public override bool PreItemCheck()
+        {
+            if (lastSelectedItem != -1 && Inventory[SelectedItem].stack == 0)
+            {
+                DeselectItem();
+            }
+
+            return true;
+        }
+
         private int GetItemSlotForTile(Tile tile)
         {
             if (tile.HasTile)
